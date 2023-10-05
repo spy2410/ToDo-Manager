@@ -68,9 +68,7 @@ export default function AddTask({ setList }) {
           id="description"
           placeholder="Enter Description"
           value={description}
-          onChange={DescriptionChange}
-          
-
+          onChange={DescriptionChange} 
         />
 
         <label >Select date</label>

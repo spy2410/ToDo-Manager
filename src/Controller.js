@@ -37,6 +37,7 @@ export default function Controller({ list, setList }) {
           bordered={active != i}
           size="sm"
           color={colors[i]}
+          key={i}
           onPress={(e) => {
             setActive(i);
           }}
