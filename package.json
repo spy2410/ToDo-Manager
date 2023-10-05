@@ -2,6 +2,7 @@
   "name": "todo",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://spy2410.github.io/ToDo-Manager",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -9,16 +10,18 @@
     "@mui/material": "^5.14.11",
     "@nextui-org/react": "^1.0.0-beta.13",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "use-dark-mode": "^2.3.1"
+    "react-dom": "18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "react-scripts": "latest"
   },
   "browserslist": {
