@@ -35,6 +35,7 @@ export default function AddTask({ setList }) {
   const addTask = () => {
     if (title.trim() === '' || description.trim() === '') {
       alert("Please fill out both fields");
+      return;
     }
 
     const newTask = {

@@ -2,7 +2,6 @@
   "name": "todo",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://spy2410.github.io/ToDo-Manager",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
